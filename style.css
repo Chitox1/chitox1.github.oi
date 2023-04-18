@@ -1,0 +1,231 @@
+
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #1F1F1F;
+    }
+
+    p {
+    color: white;
+    text-align-last: center;
+    
+    }
+
+    .c{
+   
+    text-align: center;
+    }
+    
+    div {
+    border-top: 20px solid transparent;
+    }
+
+    .hola{
+    transition: all 300ms linear;
+    }
+
+    .hola:hover{
+        transform: scale(1.15);
+    }
+
+    img{
+        border: 9px solid transparent;
+    }
+
+a{
+    text-decoration: none;
+    color: #D0D0D0;
+    }
+
+    header{
+display: flex;
+min-height: 70px;
+background-color: #070707;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+}
+
+.logo{
+display: flex;
+align-items: center;
+}
+
+.logo img{
+height: 75px;
+margin-left: 10px;
+margin-right: 20px;
+}
+/*La parte del menu termina aqui. */
+
+
+
+nav a{
+    font-weight: 600;
+    border: 5px solid transparent;
+    padding-right: 20px;
+    font-size: 18px;
+    transition: 0.5s;
+    }
+    
+    nav a:hover{
+    color: white;
+    font-size: 23px;
+    }
+
+@media (max-width:700px){
+header{
+flex-direction: column;
+}
+nav{
+    padding: 10px 0px;
+}
+}
+
+.jus{
+justify-content: left;
+}
+/*La parte del menu termina aqui. */
+
+/*La parte de pie de pagina comienza aqui */
+.pie{
+    width: 100%;
+    background-color: #070707;
+    }
+    
+    .pie .grupo1{
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        grid-template-columns: repeat(3,1fr);
+        display: grid;
+        grid-gap: 50px;
+        padding: 1px 0px;
+    }
+    .pie .grupo1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    }
+    
+    .pie .grupo1 .box figure img{
+    width: 200px;
+    height: 200px;
+    }
+    
+    .pie .grupo1 .box h2{
+    color: white;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 20px;
+    }
+    .pie .grupo1 .box p{
+    color: #D0D0D0 ;
+    margin-bottom: 10px;
+    text-align: justify;
+    }
+    
+    .pie .grupo1 .reds a{
+    display: inline-block;
+    text-decoration: none;
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    font-size: 55px;
+    color: white;
+    margin-right: 10px;
+    background-color: #0A0A0A;
+    text-align: center;
+    transition: all 300ms ease;
+    }
+    
+    .pie .grupo1 .reds a:hover{
+    background-color:  #1F1F1F;
+    }
+    
+    .pie .grupo2{   
+    color:white;
+    padding: 5px 10px;
+    text-align: center;
+    }
+    .pie .grupo2 small{
+    font-size: 15px;
+    }
+    
+    @media screen and (max-width:800px){
+    .pie .grupo1{
+    width: 90%;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    padding: 0px 0px;
+    }
+    .pie .grupo1 .reds{
+        text-align: center;
+    }
+    .pie .grupo1 .box h2{
+        text-align: center;
+        font-size: 12px;
+    }
+    .pie .grupo1 .box figure img{
+        width: 100px;
+        height: 100px;
+        }
+    
+        .pie .grupo1 .box p{
+            font-size: 10px;
+    }
+    .pie .grupo2 small{
+        font-size: 10px;
+        padding: 1px 0px;
+        }
+        .pie .grupo1 .reds a{
+            display: inline-block;
+            text-decoration: none;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            font-size: 25px;
+            color: white;
+            margin-right: 10px;
+            background-color: #0A0A0A;
+            text-align: center;
+            transition: all 300ms ease;
+            }
+    }
+
+    /*La parte de pie de pagina termina aqui */
+   
+    .pelia{
+    display: flex;    
+    margin: auto;
+    margin-top: 30px; 
+    margin-bottom: 30px;   
+    width: 80%;
+    height: 580px;
+    }
+   
+
+    .pelia div{
+    margin-right: 30px;
+    margin-left: 30px;
+    }
+
+    .pelia div h3 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        color: #D0D0D0 ;
+    }
+
+    .pelia div h2 {
+        color: white;
+    font-size: 28px;
+    }
+
+    .movie{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
